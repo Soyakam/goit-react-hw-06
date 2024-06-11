@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 
 
 const Contact = ({ name, number, id, }) => {
-  const dispatch =useDispatch
+  const dispatch = useDispatch();
   return (
     <div className={css.contact}>
       <p className={css.contactName}>Name: {name}</p>
